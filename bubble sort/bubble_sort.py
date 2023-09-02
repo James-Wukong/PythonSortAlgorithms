@@ -18,7 +18,7 @@ class BubbleSort:
 
         # if the list contains less than 2 elements, dont sort
         if elements is None or len(elements) <= 1:
-            return elements
+            return
 
         swapped = False
         # looping through the size of the list: from last element[-1] to the first element[0]
@@ -30,6 +30,6 @@ class BubbleSort:
                     swapped = True
 
             if swapped = False:
-                return elements
+                return
 
-        return elements
+        return
