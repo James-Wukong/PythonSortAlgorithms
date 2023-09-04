@@ -13,7 +13,7 @@ class BubbleSort:
         
         Args elements: the original unsorted list
         """
-        if elements is None:
+        if elements is None and self.elements is not None:
             elements = self.elements
 
         # if the list contains less than 2 elements, dont sort
