@@ -29,7 +29,7 @@ class BubbleSort:
                     elements[i], elements[i + 1] = elements[i + 1], elements[i]
                     swapped = True
 
-            if swapped = False:
+            if swapped is False:
                 return
 
         return
